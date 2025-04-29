@@ -151,3 +151,110 @@ footer {
 
 /*sobre mi*/
 
+/* === Estilos Generales del Sitio === */
+
+main {
+    padding: 2rem; /* Espaciado interno del contenido principal */
+}
+
+/* === Sección Principal: Banner con imagen y texto === */
+.principalBanner {
+    text-align: left; /* Alinea todo el texto a la izquierda */
+    background-color: #fff; /* Fondo blanco */
+    margin-bottom: 3rem; /* Separación hacia abajo */
+}
+
+.principalBanner img {
+    width: 100%; /* Imagen ocupa todo el ancho disponible */
+    max-height: 300px; /* Altura máxima de la imagen */
+    object-fit: cover; /* Recorta la imagen para que no se deforme */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 1.5rem; /* Separación debajo de la imagen */
+}
+
+.principalBanner h1 {
+    color: #a50464; /* Color rosado fuerte */
+    font-size: 2rem; /* Tamaño grande para el título */
+    margin: 0 0 0.5rem 0; /* Márgenes superiores e inferiores */
+}
+
+.principalBanner h2 {
+    color: #d23c85; /* Color rosado claro */
+    font-size: 1.2rem; /* Tamaño más pequeño que el título */
+    margin: 0 0 1rem 0;
+}
+
+.principalBanner p {
+    max-width: 500px; /* Máximo ancho del párrafo */
+    margin-bottom: 1.5rem; /* Separación inferior */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* === Botón principal estilo CTA (Call To Action) === */
+.primary-button {
+    display: inline-block;
+    background-color: #a50464; /* Color de fondo rosado */
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border-radius: 25px; /* Bordes muy redondeados */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color al pasar el mouse */
+}
+
+.primary-button:hover {
+    background-color: #d23c85; /* Cambio de color al pasar el mouse */
+}
+
+/* === Sección de Artículos o Tarjetas de Proyectos === */
+section > article {
+    background-color: #fff5b7; /* Fondo amarillo pastel */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 1rem; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    margin: 1rem; /* Separación entre tarjetas */
+    display: inline-block; /* Permite que estén uno al lado del otro */
+    width: 250px; /* Ancho fijo para cada tarjeta */
+    vertical-align: top; /* Alinear al tope */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Efecto suave al hacer hover */
+}
+
+section > article:hover {
+    transform: translateY(-5px); /* Levantar la tarjeta al pasar el mouse */
+}
+
+section > article img {
+    width: 100%; /* Imagen ocupa todo el ancho de la tarjeta */
+    height: 150px; /* Altura fija */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espacio debajo de la imagen */
+}
+
+section > article h2 {
+    font-size: 1.1rem; /* Tamaño del título en cada tarjeta */
+    margin: 0.5rem 0; /* Espaciado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+section > article p {
+    font-size: 0.95rem; /* Tamaño del párrafo */
+    color: #333; /* Color de texto */
+    margin-bottom: 1rem;
+}
+
+section > article a {
+    text-decoration: none; /* Quitar subrayado del link */
+    color: #a50464; /* Color rosado para el link */
+    font-weight: bold; /* Negrita */
+}
+
+/* === Responsive para Móviles === */
+@media (max-width: 768px) {
+    section > article {
+        width: 90%; /* Tarjetas ocupan casi todo el ancho */
+        margin: 1rem auto; /* Centrar en móviles */
+    }
+}
+
