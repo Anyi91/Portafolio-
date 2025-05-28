@@ -39,7 +39,6 @@ p {
     font-size: 1rem;
     color: #333;
     margin-bottom: 30px;
-    max-width: 450px;
 }
 
 .primary-button {
@@ -178,24 +177,26 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
     padding-left: 5rem;
+    align-items: flex-end;
     background-color: #FFEFF7;
     gap: 2rem;
+    height: 500px;
 }
 
 .image-banner {
     width: 30%;
-    align-items: center;
 }
 
 .image-banner img {
     max-width: 100%;
-    height: auto;
 }
 
 .content-banner {
     width: 70%;
+    justify-content: space-between;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
 }
 
 .content-banner h1 {
@@ -252,10 +253,10 @@ section {
     padding: 0 0 5rem 5rem;
 }
 
-.tools-logos {
+.tools-logos img {
     max-width: 100%;
     height: auto;
-    margin-right: 0, 5rem;
+    margin-right: 1rem;
 }
 
 .testimonial {
@@ -347,4 +348,104 @@ section {
 .proyectos-card a{
     margin: 2rem 1.5rem;
     color: #000000;
+}
+
+/*Projecto*/
+
+.tools-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tools-project img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5rem;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.project h2 {
+    margin-bottom: 1rem;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33.3%;
+    height: auto;
+    gap: 1rem;
+}
+
+.results img {
+    border-radius: 0,5rem;
+}
+
+.button-projects {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+/*contactame*/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.contact img {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+form label {
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    border: none;
+    background-color: #FFF59D;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 150px;
+    border-radius: 1rem;
+    resize: vertical;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
 }

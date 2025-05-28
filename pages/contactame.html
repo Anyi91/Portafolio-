@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anyi - Diseñadora</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body> 
-    
+
+<body>
+
     <header>
         <nav class="navbar">
             <a href="../index.html"><img src="../imagenes/logo-personal.png" alt="Logotipo de Anyi"></a>
@@ -24,32 +26,41 @@
             <img src="../imagenes/baner-sobre-mi.png" alt="Foto de Anyi Macuase">
             <h1>¡Envíame un mensaje!</h1>
         </section>
-        <section>
-            <article>
-                <form action="#">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Escribe tu nombre" required><br>
-                    <label for="correo">Correo</label>
-                    <input type="text" id="nombre" placeholder="Escribe tu correo" required><br>
-                    <textarea placeholder="Deja aquí tu mensaje" required></textarea><br>
-                    <label>
-                        <input type="checkbox" name="acepta" value="1">
-                        ¿Quieres recibir novedades y ofertas sobre el servicio?
-                    </label><br>
-                    <input type="submit" value="Enviar" class="primary-button">
-                </form>
-            </article>
-        </section>
+
+        <form>
+            <div class="form-group">
+                <label for="nombre">Escribe tu nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Escribe correo</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Deja aquí tu mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="ofertas" name="ofertas">
+                <label for="ofertas">¿Quieres recibir novedades y ofertas sobre el servicio?</label>
+            </div>
+            <input type="submit" value="Enviar" class="primary-button">
+        </form>
     </main>
-    
-   <footer>
+
+    <footer>
         <div class="footer">
             <div class="footer-content">
                 <h3>Aquí puedes ver más sobre mi trabajo</h3>
             </div>
             <div class="social-media">
-                <a href="https://www.behance.net/AngieMM" target="_blank"><img src="../imagenes/logo-behance.png" alt="Behance"></a>
-                <a href="https://www.instagram.com/keyword_art/" target="_blank"><img src="../imagenes/logo-instagram.png" alt="Instagram"></a>
+                <a href="https://www.behance.net/AngieMM" target="_blank"><img src="../imagenes/logo-behance.png"
+                        alt="Behance"></a>
+                <a href="https://www.instagram.com/keyword_art/" target="_blank"><img
+                        src="../imagenes/logo-instagram.png" alt="Instagram"></a>
                 <a href="./pages/contactame.html" class="secondary-button">¡Trabajemos juntos!</a>
             </div>
             <div class="footer-note">
