@@ -15,10 +15,11 @@ font famyli: 'Poppins', sans-serif;
 /*general*/
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-extrabold', sans-serif;
 }
 
 h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #a9005b;
     margin-bottom: 20px;
@@ -26,22 +27,26 @@ h1 {
 }
 
 h2 {
+    font-family: 'poppins', sans-serif;
     font-size: 1.25rem;
     color: black;
 }
 
 h3 {
-    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
     color: white;
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #333;
     margin-bottom: 30px;
 }
 
 .primary-button {
+    font-family: 'poppins', sans-serif;
     background-color: #a9005b;
     color: #ffe600;
     padding: 12px 30px;
@@ -54,6 +59,7 @@ p {
 }
 
 .secondary-button {
+    font-family: 'poppins', sans-serif;
     background-color: #ffe600;
     color: #47002b;
     padding: 12px 30px;
@@ -89,6 +95,7 @@ p {
 }
 
 .navbar a {
+    font-family: 'poppins', sans-serif;
     color: #000000;
     text-decoration: none;
     padding: 1rem 1.3rem;
@@ -348,6 +355,7 @@ section {
 }
 
 .proyectos-card a{
+    font-family: 'poppins', sans-serif;
     margin: 2rem 1.5rem;
     color: #000000;
 }
@@ -420,6 +428,7 @@ form {
     margin-bottom: 2rem;
     gap: 1.5rem;
     width: 100%;
+    font-family: 'poppins', sans-serif;
 }
 
 form label {
